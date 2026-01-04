@@ -1,0 +1,87 @@
+/* KEEP ORIGINAL COLORS – JUST ADD HOVER + LEFT ALIGN */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #000;
+  padding: 14px 20px;
+  z-index: 1000;
+}
+
+.navbar-inner {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LEFT GROUP */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* LOGO (unchanged color) */
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* NAV LINKS – SAME COLOR, BUTTON HOVER */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.nav-link:hover {
+  background: #222;
+}
+
+/* ACTIVE PAGE */
+.nav-link.active {
+  background: #333;
+}
+
+/* RIGHT */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* CART ICON – SAME YELLOW */
+.icon {
+  color: yellow;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+/* CART BADGE */
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* LOGIN BUTTON – SAME STYLE */
+.login-btn {
+  background: white;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
