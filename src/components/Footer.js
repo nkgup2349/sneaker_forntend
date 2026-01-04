@@ -18,7 +18,7 @@ export default function Footer() {
           <h4>Quick Links</h4>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/orders">My Orders</Link></li>
+            <li><Link to="/orderStatus">My Orders</Link></li>
             <li><Link to="/cart">Cart</Link></li>
           </ul>
         </div>
@@ -26,15 +26,15 @@ export default function Footer() {
         <div className="footer-section">
           <h4>Support</h4>
           <ul>
-            <li><Link to="/orders">Track Order</Link></li>
+            <li><Link to="/orderStatus">Track Order</Link></li>
             <li><Link to="/">Authenticity Check</Link></li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h4>Contact</h4>
-          <p>Email: support@sneakerx.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Email: nkgup2349@gmail.com</p>
+          <p>Phone: +91 9863839377</p>
         </div>
 
       </div>
